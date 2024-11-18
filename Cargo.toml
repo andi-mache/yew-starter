@@ -1,0 +1,15 @@
+[package]
+name = "yew-component-library"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+yew = { version = "0.21", features = ["csr"] }
+yew-router = "0.18.0"
+gloo = "0.11.0"
+web-sys = {version = "0.3.64", features = ["Element", "DomTokenList", "HtmlElement"]}
+once_cell = "1.18.0"
+yew-datepicker = "0.2.0"
+pure-rust-locales = "0.7.0"
